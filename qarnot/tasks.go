@@ -357,6 +357,7 @@ type CreateTaskPayload struct {
 	DefaultResourcesCacheTTLSec         int                           `json:"defaultResourcesCacheTTLSec,omitempty"`
 	Privileges                          *Privileges                   `json:"privileges,omitempty"`
 	RetrySettings                       *RetrySettings                `json:"retrySettings,omitempty"`
+	ForcedNetworkRules                  []ForcedNetworkRule           `json:"forcedNetworkRule,omitempty"`
 }
 
 // Struct representing a UUID response
