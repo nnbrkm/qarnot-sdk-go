@@ -14,7 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/redat00/qarnot-sdk-go/internal/helpers"
+	"github.com/nnbrkm/qarnot-sdk-go/internal/helpers"
 )
 
 type Client struct {
@@ -28,7 +28,7 @@ type Client struct {
 // Since the API is not returning consistent errors, we create
 // different struct to accomodate them all. If you want more
 // information about it, you can check the Github issue :
-// https://github.com/redat00/qarnot-sdk-go/issues/7
+// https://github.com/nnbrkm/qarnot-sdk-go/issues/7
 
 type firstErrorType struct {
 	Message string `json:"message"`

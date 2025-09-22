@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/redat00/qarnot-sdk-go/internal/helpers"
+	"github.com/nnbrkm/qarnot-sdk-go/internal/helpers"
 )
 
 type Settings struct {

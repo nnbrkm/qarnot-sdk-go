@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/redat00/qarnot-sdk-go/internal/helpers"
+	"github.com/nnbrkm/qarnot-sdk-go/internal/helpers"
 )
 
 // Struct representing the content of a prefix filtering field

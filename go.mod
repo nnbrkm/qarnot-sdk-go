@@ -1,4 +1,4 @@
-module github.com/redat00/qarnot-sdk-go
+module github.com/nnbrkm/qarnot-sdk-go
 
 go 1.22.0
 
